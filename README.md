@@ -6,6 +6,8 @@ EEN Media Player Testing
             esn = '',
             auth_key = '',
       
-# edit cluster/active branded subdomain:
+# edit cluster/active branded subdomain for lower latency
 
+            config.setDomain('login.eagleeyenetworks.com')
             config.setDomain('c013.eagleeyenetworks.com')
+            config.setDomain('testlab.eagleeyenetworks.com')
